@@ -1,5 +1,9 @@
 # velokino-monitor
 
+### Requirements
+
+NodeJS, obtained from https://nodejs.org/en/download/
+
 ### Usage
 
 1. `git clone github.com/lucnat/velokino-monitor`
