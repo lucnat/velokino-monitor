@@ -8,7 +8,7 @@ body {
 }
 
 .border {
-  border: 3px solid #ccc;
+  border: 0px solid #ccc;
   border-radius: 10px;
 }
 
@@ -20,5 +20,9 @@ body {
   vertical-align: middle;
   text-align: center;
   line-height: 200px;
+  color: white;
+}
 
+.what {
+  color: #2d9c23;
 }
