@@ -23,10 +23,10 @@ function getCorrectColor(value) {
 
 function updateUI(data) {
   // updates the UI with latest data
-  const divs = document.getElementsByClassName('velopanel');
+  const divs = document.getElementsByClassName('value');
   const divArray = [].slice.call(divs);
   divArray.forEach((div, i) => {
-    div.innerHTML =  data[i] + ' A'
+    div.innerHTML =  data[i].toFixed(1) + ' A'
     $(div).css('background-color',getCorrectColor(data[i]))
   })
 
