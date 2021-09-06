@@ -1,0 +1,24 @@
+
+body {
+  font-family: 'Courier New', Courier, monospace;
+  font-size: 25px;
+  font-weight: bold;
+  color: #2fc9c9;
+  background-color: rgb(40, 47, 58);
+}
+
+.border {
+  border: 3px solid #ccc;
+  border-radius: 10px;
+}
+
+.velopanel {
+  width: 200px;
+  display: inline-block;
+  margin-top: 20px;
+  height: 200px;
+  vertical-align: middle;
+  text-align: center;
+  line-height: 200px;
+
+}

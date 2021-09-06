@@ -11,9 +11,9 @@ let win
 function createWindow() {
     // Create the browser window.
     win = new BrowserWindow({
-        width: 1000,
-        height: 600,
-        // transparent: false,
+        width: 1200,
+        height: 800,
+        transparent: true,
         webPreferences: {
             nodeIntegration: true,
             contextIsolation: false,
@@ -30,7 +30,7 @@ function createWindow() {
     }))
 
     // Open the DevTools.
-    win.webContents.openDevTools()
+    // win.webContents.openDevTools()
 
     win.on('closed', function() {
         mainWindow = null
