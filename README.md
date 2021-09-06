@@ -8,5 +8,5 @@
 
 3. Add correct serial port in `App.js`. Can be found out by inspecting electron console or with Arduino IDE. 
 
-4. `npm start`
+4. `npm install && npm start`
 
